@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+#
+Liferay portal installation procedure on Ubuntu 16
 
-You can use the [editor on GitHub](https://github.com/herbat73/LiferayInstallUbuntu/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Introduction
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This article will guide you through the step by step process of installing Liferay portal server boundled with Tomcat server and setup portal on Ubuntu server.
 
-### Markdown
+For storing data we will use MySQL server and this manual also corvers basic MySQL installation and basic security setup in order to work with Liferay.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+For securing connection to the portal we will use Let's Encrypt SSL certificates.
 
-```markdown
-Syntax highlighted code block
+SSL certificates are used within web servers to encrypt the traffic between the server and client, providing extra security for users accessing your application. Let's Encrypt provides an easy way to obtain and install trusted certificates for free.
 
-# Header 1
-## Header 2
-### Header 3
+We will also cover how to automate the certificate renewal process using a cron job.
 
-- Bulleted
-- List
+## Prerequisites {#prerequisites}
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/herbat73/LiferayInstallUbuntu/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* One Ubuntu 16 server \(tested on : 16.04, 16.10\)
