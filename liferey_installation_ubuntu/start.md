@@ -16,11 +16,17 @@ We will also cover how to automate the certificate renewal process using a cron 
 
 * One Ubuntu 16 server \(tested on : 16.04, 16.10\)
 
-Table of Contents
-=================
-[1. Components installation](chapter1.md) 
+# Table of Contents
+
+[1. Components installation](chapter1.md)
 
 [2. MySQL installation](chapter2.md)
 
 [3. Liferay installation](chapter3.md)
+
+[4. Encrypting Tomcat Connections with Apache](/liferey_installation_ubuntu/chapter4.md)
+
+
+
+
 

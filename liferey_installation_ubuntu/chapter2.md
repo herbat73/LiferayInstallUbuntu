@@ -82,8 +82,6 @@ MySQL will execute script and give you response like
 
 Type `exit` to quite mysql tool.
 
-
-
 # Table of Contents
 
 [1. Components installation](chapter1.md)
@@ -91,4 +89,6 @@ Type `exit` to quite mysql tool.
 [2. MySQL installation](chapter2.md)
 
 [3. Liferay installation](chapter3.md)
+
+[4. Encrypting Tomcat Connections with Apache](#)
 

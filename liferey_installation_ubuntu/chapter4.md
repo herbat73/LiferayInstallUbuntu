@@ -18,6 +18,14 @@ You should see Apache welcome screen.
 
 ![](/liferey_installation_ubuntu/assets/apache_ubuntu.png)
 
+Alternatively you can check if server is running on port 80 by using netcat tool
+
+`nc -zv localhost 80`
+
+It should give you response
+
+Connection to localhost 80 port \[tcp/http\] succeeded!
+
 ## Step 2 - Create reverse proxy
 
 ## 

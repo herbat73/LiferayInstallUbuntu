@@ -62,8 +62,6 @@ and it will return path to java home as you just added to environment
 
 `/usr/lib/jvm/default-java`
 
-
-
 # Table of Contents
 
 [1. Components installation](chapter1.md)
@@ -71,4 +69,6 @@ and it will return path to java home as you just added to environment
 [2. MySQL installation](chapter2.md)
 
 [3. Liferay installation](chapter3.md)
+
+[4. Encrypting Tomcat Connections with Apache](#)
 
