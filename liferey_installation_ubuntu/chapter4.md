@@ -24,7 +24,11 @@ Alternatively you can check if server is running on port 80 by using netcat tool
 
 It should give you response
 
-Connection to localhost 80 port \[tcp/http\] succeeded!
+`Connection to localhost 80 port [tcp/http] succeeded!`
+
+Now we need to install additional modules for Apache
+
+
 
 ## Step 2 - Create reverse proxy
 
