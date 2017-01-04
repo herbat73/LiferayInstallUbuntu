@@ -26,6 +26,8 @@ It should give you response
 
 `Connection to localhost 80 port [tcp/http] succeeded!`
 
+## Step 2 - Create reverse proxy
+
 Now we need to install additional proxy and rewrite modules for Apache
 
 `sudo a2enmod proxy`
@@ -116,7 +118,7 @@ Now, if you enter only serever ip adress apache forwards call to Liferay tomcat 
 
 ![](/liferey_installation_ubuntu/assets/tomcat_on_port_80.png)
 
-## Step 2 - Create reverse proxy
+## 
 
 ## 
 
