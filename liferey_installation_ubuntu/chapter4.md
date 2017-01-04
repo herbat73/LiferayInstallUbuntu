@@ -118,7 +118,13 @@ Now, if you enter only serever ip adress apache forwards call to Liferay tomcat 
 
 ![](/liferey_installation_ubuntu/assets/tomcat_on_port_80.png)
 
+## Step 4 - Generate Let's Encrypt Certificate
+
+
+
 ## Step 3 - Set Up the SSL Certificate
+
+
 
 
 
