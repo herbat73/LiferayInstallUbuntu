@@ -16,7 +16,7 @@ You can test if Apache server is running by entering in the browser ip address o
 
 You should see Apache welcome screen.
 
-
+![](/liferey_installation_ubuntu/assets/apache_ubuntu.png)
 
 ## Step 2 - Create reverse proxy
 
