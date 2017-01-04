@@ -8,3 +8,11 @@ We will use reverse proxy model. The Apache web server will handle request with 
 
 
 
+## Step 2 - Create reverse proxy
+
+
+
+## Step 3 - Set Up the SSL Certificate
+
+
+
