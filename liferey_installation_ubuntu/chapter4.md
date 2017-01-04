@@ -26,7 +26,23 @@ It should give you response
 
 `Connection to localhost 80 port [tcp/http] succeeded!`
 
-Now we need to install additional modules for Apache
+Now we need to install additional proxy and rewrite modules for Apache
+
+`sudo a2enmod proxy`
+
+`sudo a2enmod proxy_http`
+
+`sudo a2enmod rewrite`
+
+And one more for plug-in that handles the communication between Tomcat and Apache.
+
+`sudo apt-get install libapache2-mod-jk`
+
+Restart apache service to enable installed modules
+
+service apache2 restart
+
+
 
 ## Step 2 - Create reverse proxy
 
