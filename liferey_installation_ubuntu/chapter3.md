@@ -126,11 +126,11 @@ You can enter ip adres in your browser to validate server installation. It will 
 
 [http://yourServerIPAdress:8080/](http://yourServerIPAdress:8080/)
 
-![](/assets/liferay_start.png)
+![](assets/liferay_start.png)
 
 You can start first login by using user **test@liferay.com** with password **test**
 
-![](/assets/login.png)
+![](assets/login.png)
 
 Accept Terms of use and change default password.
 
