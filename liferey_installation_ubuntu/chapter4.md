@@ -138,9 +138,15 @@ One remark.You need make changes in your DNS to point to this sever otherwise th
 
 When it starts it will show the screen like this
 
- ![](/liferey_installation_ubuntu/assets/letsencrypt_email.png) 
+![](/liferey_installation_ubuntu/assets/letsencrypt_email.png)
 
-Enter e-mail address. On this e-mail address you will get reminders about SSL certifacte expiration. These are valid only for 3 months but no worry. We will show how to automate this process in one line and generate certifacates when you sleep. 
+Enter e-mail address. On this e-mail address you will get reminders about SSL certifacte expiration. These are valid only for 3 months but no worry. We will show how to automate this process in one line and generate certifacates when you sleep.
+
+Anyway, please agree for Let's Encrypt terms and condtions.
+
+![](/liferey_installation_ubuntu/assets/letsencrypt_agreement.png)
+
+It will take serveral seconds and your server SSL certifatates will be generated. No credit card, no registartion process, no validation. Simply awesome.
 
 
 
