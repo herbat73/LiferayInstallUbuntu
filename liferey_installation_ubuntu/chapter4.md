@@ -146,9 +146,15 @@ Anyway, please agree for Let's Encrypt terms and condtions.
 
 ![](/liferey_installation_ubuntu/assets/letsencrypt_agreement.png)
 
+Now, it is time to choose if you want to forward all calls to https connection or you want to use both.
+
+![](/liferey_installation_ubuntu/assets/securing_apache.png)
+
+Your choose but we will show you how to 
+
+
+
 It will take serveral seconds and your server SSL certifatates will be generated. No credit card, no registartion process, no validation. Simply awesome.
-
-
 
 ## Step 3 - Set Up the SSL Certificate
 
