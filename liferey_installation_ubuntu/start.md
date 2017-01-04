@@ -24,7 +24,15 @@ We will also cover how to automate the certificate renewal process using a cron 
 
 [3. Liferay installation](chapter3.md)
 
-[4. Encrypting Tomcat Connections with Apache](/liferey_installation_ubuntu/chapter4.md)
+[4. Encrypting Tomcat Connections with Apache](chapter4.md)
+
+
+
+
+
+
+
+
 
 
 
