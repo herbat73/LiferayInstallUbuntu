@@ -156,5 +156,37 @@ It will take serveral seconds and your server SSL certifatates will be generated
 
 ## Step 4 - Autorenew the Let's Encrypt Certificate
 
+The simplest way is use time-sheduler job tool. Run the command.
+
+sudo crontab -e
+
+You will get info like this
+
+Select an editor.  To change later, run 'select-editor'.
+
+  1. /bin/ed
+
+  2. /bin/nano        &lt;---- easiest
+
+  3. /usr/bin/vim.basic
+
+  4. /usr/bin/vim.tiny
+
+Our favorite tools is nano so we choose 2
+
+Go to the end of the cron tab list and add text line
+
+`@monthly sudo letsencrypt renew >> /var/log/le-renew.log && sudo service apache2 restart >> /var/log/apache-restart.log`
+
+Save it.
+
+What will happen?
+
+1. Every month the job will start and run automatically Let's Encrypt renew certifates process on this sever. 
+2. The process will save the log to the file located at `/var/log/le-renew.log`
+3. After generation new certificate apache service will be restarted in order to use new certifates.
+
+You can modify the cron job to run specific time as you like it.
+
 
 
