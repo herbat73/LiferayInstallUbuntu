@@ -154,9 +154,9 @@ You can simply choose Serure and forward all http conection to https even if use
 
 It will take serveral seconds and your server SSL certifatates will be generated. No credit card, no registartion process, no validation. Simply awesome.
 
+## Step 4 - Autorenew the SSL Certificate
 
 
-## Step 3 - Set Up the SSL Certificate
 
 
 
