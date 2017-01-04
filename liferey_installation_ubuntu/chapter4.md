@@ -158,5 +158,3 @@ It will take serveral seconds and your server SSL certifatates will be generated
 
 
 
-
-
