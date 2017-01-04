@@ -19,6 +19,8 @@ We will also cover how to automate the certificate renewal process using a cron 
 Table of Contents
 =================
 [1. Components installation](chapter1.md) 
+
 [2. MySQL installation](mysql-installation.md)
+
 [3. Liferay installation](liferay-installation.md)
 
