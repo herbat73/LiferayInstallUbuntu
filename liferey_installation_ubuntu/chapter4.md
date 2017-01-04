@@ -38,12 +38,6 @@ And one more for plug-in that handles the communication between Tomcat and Apach
 
 `sudo apt-get install libapache2-mod-jk`
 
-Restart apache service to enable installed modules
-
-service apache2 restart
-
-You can be asked for entering sudo password.
-
 We need to configure the JK module. Edit the configuration file located at /etc/libapache2-mod-jk/workers.properties
 
 Open in text editor with sudo privelages like
@@ -106,13 +100,21 @@ ServerName xx.xx.xx.xxx
 
 where xx.xx.xx.xxx is your server ip address or server name.
 
-When you check again 
+When you check again
 
 `sudo apache2ctl configtest`
 
 It should give you clear message
 
-Syntax OK
+`Syntax OK`
+
+Restart apache service to enable installed modules
+
+`sudo service apache2 restart`
+
+Now, if you enter only serever ip adress apache forwards call to Liferay tomcat server.
+
+
 
 
 
