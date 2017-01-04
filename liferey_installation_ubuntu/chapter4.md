@@ -54,15 +54,45 @@ Inside the the file find find the`workers.tomcat_home` parameter.
 
 Originally it is setup like
 
-workers.tomcat\_home=/usr/share/tomcat8
+`workers.tomcat_home=/usr/share/tomcat8`
 
-You should ajust to your Liferay tomcat home. In our case it should be
+You should change it to your Liferay tomcat home. In our case it should be
 
 `workers.tomcat_home=/home/myusername/liferay-ce-portal-7.0-ga3/tomcat-8.0.32`
 
 Adjust the value to your particular username and installation folder.
 
 Save the file.
+
+Now, we will modify apache http port to forward handles to tomcat worker.
+
+Open apache config file /etc/apache2/sites-available/000-default.conf
+
+sudo nano /etc/apache2/sites-available/000-default.conf
+
+Add line JKMout for instance after DocumentRoot
+
+`<VirtualHost *:80>`
+
+`...`
+
+`ServerAdmin webmaster@localhost`
+
+`DocumentRoot /var/www/html`
+
+
+
+`JKMount /* ajp13_worker`
+
+`..`
+
+`</VirtualHost`&gt;
+
+
+
+
+
+  
 
 
 
