@@ -42,6 +42,8 @@ Restart apache service to enable installed modules
 
 service apache2 restart
 
+You can be asked for entering sudo password.
+
 
 
 ## Step 2 - Create reverse proxy
