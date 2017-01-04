@@ -1,5 +1,4 @@
-#
-Liferay portal installation procedure on Ubuntu 16
+# Liferay portal installation procedure on Ubuntu 16
 
 ## Introduction
 
