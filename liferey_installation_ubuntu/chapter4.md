@@ -114,7 +114,7 @@ Restart apache service to enable installed modules
 
 Now, if you enter only serever ip adress apache forwards call to Liferay tomcat server.
 
-
+![](/liferey_installation_ubuntu/assets/tomcat_on_port_80.png)
 
 ## Step 2 - Create reverse proxy
 
