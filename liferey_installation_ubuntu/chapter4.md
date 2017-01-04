@@ -44,7 +44,21 @@ service apache2 restart
 
 You can be asked for entering sudo password.
 
+We need to configure the JK module. Edit the configuration file located at /etc/libapache2-mod-jk/workers.properties 
 
+Open in text editor with sudo privelages like
+
+sudo nano /etc/libapache2-mod-jk/workers.properties
+
+Inside the the file find find the`workers.tomcat_home` parameter.
+
+Originally it is setup like
+
+workers.tomcat\_home=/usr/share/tomcat8
+
+You should ajust to your Liferay tomcat home. In our case it should be
+
+workers.tomcat\_home=/usr/share/tomcat8
 
 ## Step 2 - Create reverse proxy
 
