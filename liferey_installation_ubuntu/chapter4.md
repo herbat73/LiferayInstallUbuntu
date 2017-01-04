@@ -86,6 +86,20 @@ Add line JKMout for instance after DocumentRoot
 
 `</VirtualHost>`
 
+Save and close the file. You can validate your apache configuration by entering
+
+sudo apache2ctl configtest
+
+You might notice warning like this
+
+`AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 10.3.4.6. Set the 'ServerName' directive globally to suppress this message`
+
+`Syntax OK`
+
+Do not worry. It is easy to fix.
+
+
+
 
 
 ## Step 2 - Create reverse proxy
