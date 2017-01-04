@@ -84,3 +84,11 @@ Type `exit` to quite mysql tool.
 
 
 
+# Table of Contents
+
+[1. Components installation](chapter1.md)
+
+[2. MySQL installation](chapter2.md)
+
+[3. Liferay installation](chapter3.md)
+
