@@ -12,7 +12,7 @@ SSL certificates are used within web servers to encrypt the traffic between the 
 
 We will also cover how to automate the certificate renewal process using a cron job.
 
-## Prerequisites {#prerequisites}
+## Prerequisites
 
 * One Ubuntu 16 server \(tested on : 16.04, 16.10\)
 
@@ -20,7 +20,7 @@ Table of Contents
 =================
 [1. Components installation](chapter1.md) 
 
-[2. MySQL installation](mysql-installation.md)
+[2. MySQL installation](chapter2.md)
 
-[3. Liferay installation](liferay-installation.md)
+[3. Liferay installation](chapter3.md)
 
