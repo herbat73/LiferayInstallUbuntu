@@ -150,11 +150,11 @@ Now, it is time to choose if you want to forward all calls to https connection o
 
 ![](/liferey_installation_ubuntu/assets/securing_apache.png)
 
-Your choose but we will show you how to 
-
-
+You can simply choose Serure and forward all http conection to https even if user forgot to enter https in the browser.
 
 It will take serveral seconds and your server SSL certifatates will be generated. No credit card, no registartion process, no validation. Simply awesome.
+
+
 
 ## Step 3 - Set Up the SSL Certificate
 
