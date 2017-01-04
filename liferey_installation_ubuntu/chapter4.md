@@ -96,7 +96,25 @@ You might notice warning like this
 
 `Syntax OK`
 
-Do not worry. It is easy to fix.
+Do not worry. It is easy to fix. Open apache configration file
+
+`sudo nano /etc/apache2/apache2.conf`
+
+Add line at the end
+
+ServerName xx.xx.xx.xxx
+
+where xx.xx.xx.xxx is your server ip address or server name.
+
+When you check again 
+
+`sudo apache2ctl configtest`
+
+It should give you clear message
+
+Syntax OK
+
+
 
 ## Step 2 - Create reverse proxy
 
