@@ -8,7 +8,7 @@ The simplest way is typing
 
 On package configuration enter the password for the MySQL root user.
 
-![](/assets/mysql_pass.png)
+![](assets/mysql_pass.png)
 
 Type and remember it. You will use it later.
 
