@@ -28,8 +28,6 @@ It should give you response
 
 Now we need to install additional modules for Apache
 
-
-
 ## Step 2 - Create reverse proxy
 
 ## 
