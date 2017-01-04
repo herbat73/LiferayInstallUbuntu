@@ -134,3 +134,13 @@ You can start first login by using user **test@liferay.com** with password **tes
 
 Accept Terms of use and change default password.
 
+
+
+# Table of Contents
+
+[1. Components installation](chapter1.md)
+
+[2. MySQL installation](chapter2.md)
+
+[3. Liferay installation](chapter3.md)
+
