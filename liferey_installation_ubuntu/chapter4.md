@@ -120,11 +120,31 @@ Now, if you enter only serever ip adress apache forwards call to Liferay tomcat 
 
 ## Step 4 - Generate Let's Encrypt Certificate
 
+The easiest way is use apt-get repository and install from official repo.
+
+sudo apt-get install python-certbot-apache
+
+You can validate `letsencrypt` installation by displaying help
+
+`letsencrypt -help`
+
+Now, the most tricky thing. Generate certificate in one command.
+
+`sudo letsencrypt --apache -d example.com`
+
+where example.com is your domain. Adjust the command above to start the process.
+
+One remark.You need make changes in your DNS to point to this sever otherwise the process will fail.
+
+When it starts it will show the screen like this
+
+ ![](/liferey_installation_ubuntu/assets/letsencrypt_email.png) 
+
+Enter e-mail address. On this e-mail address you will get reminders about SSL certifacte expiration. These are valid only for 3 months but no worry. We will show how to automate this process in one line and generate certifacates when you sleep. 
+
 
 
 ## Step 3 - Set Up the SSL Certificate
-
-
 
 
 
