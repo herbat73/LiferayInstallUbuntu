@@ -60,7 +60,11 @@ You should ajust to your Liferay tomcat home. In our case it should be
 
 `workers.tomcat_home=/home/myusername/liferay-ce-portal-7.0-ga3/tomcat-8.0.32`
 
-Ajust the value to your particular username and installation folder.
+Adjust the value to your particular username and installation folder.
+
+Save the file.
+
+
 
 ## Step 2 - Create reverse proxy
 
