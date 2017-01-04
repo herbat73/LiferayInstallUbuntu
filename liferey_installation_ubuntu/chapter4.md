@@ -12,6 +12,10 @@ Enter command
 
 `sudo apt-get install apache2`
 
+You can test if Apache server is running by entering in the browser ip address of your server.
+
+You should see Apache welcome screen.
+
 
 
 ## Step 2 - Create reverse proxy
