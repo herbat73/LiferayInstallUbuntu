@@ -88,7 +88,7 @@ Add line JKMout for instance after DocumentRoot
 
 Save and close the file. You can validate your apache configuration by entering
 
-sudo apache2ctl configtest
+`sudo apache2ctl configtest`
 
 You might notice warning like this
 
@@ -97,10 +97,6 @@ You might notice warning like this
 `Syntax OK`
 
 Do not worry. It is easy to fix.
-
-
-
-
 
 ## Step 2 - Create reverse proxy
 
