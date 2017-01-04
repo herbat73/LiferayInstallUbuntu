@@ -80,19 +80,11 @@ Add line JKMout for instance after DocumentRoot
 
 `DocumentRoot /var/www/html`
 
-
-
 `JKMount /* ajp13_worker`
 
 `..`
 
-`</VirtualHost`&gt;
-
-
-
-
-
-  
+`</VirtualHost>`
 
 
 
