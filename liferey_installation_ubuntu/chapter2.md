@@ -90,5 +90,13 @@ Type `exit` to quite mysql tool.
 
 [3. Liferay installation](chapter3.md)
 
-[4. Encrypting Tomcat Connections with Apache](#)
+[4. Encrypting Tomcat Connections with Apache](chapter4.md)
+
+
+
+
+
+
+
+
 
