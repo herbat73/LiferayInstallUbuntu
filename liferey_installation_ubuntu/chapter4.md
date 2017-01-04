@@ -116,8 +116,6 @@ Now, if you enter only serever ip adress apache forwards call to Liferay tomcat 
 
 
 
-
-
 ## Step 2 - Create reverse proxy
 
 ## 
