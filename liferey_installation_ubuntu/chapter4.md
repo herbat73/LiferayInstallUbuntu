@@ -6,6 +6,12 @@ We will use reverse proxy model. The Apache web server will handle request with 
 
 ## Step 1 - Install Apache server
 
+You can get Apache installed on your server through`apt-get`
+
+Enter command
+
+`sudo apt-get install apache2`
+
 
 
 ## Step 2 - Create reverse proxy
